@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+figure>img {
+    width: 100%;
+    margin: auto;
+}
+
+/*estilos del Header*/
+
+header {
+    display: flex;
+    margin: 0% 1%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header figure {
+    flex: 1;
+    min-width: 250px;
+}
+
+header h1 {
+    flex: 5;
+    font-size: 6vw;
+    text-align: center;
+    min-width: 200px;
+    font-family: 'Fredoka One', cursive;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 5px #0e0184;
+}
+
+/*estilos del Header*/
+
+nav {
+    margin: 1%;
+    background: linear-gradient(to left, rgb(21, 235, 255), rgb(113, 74, 241));
+
+}
+
+nav ul {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 1%;
+    margin: 1%;
+    text-transform: uppercase;
+    min-width: 2%;
+    background-color: rgb(247, 249, 243);
+    cursor: pointer;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(69, 70, 69);
+    font-weight: bold;
+}
+
+nav ul li:hover {
+    background-color: #7cf6ff;
+    padding: 13px;
+    transition-duration: 5ms;
+
+}
+
+/*estilos del main*/
+
+main {
+    margin: 1%;
+}
+
+article:nth-of-type(even) {
+    background-color: rgb(3, 3, 82);
+    color: rgb(253, 252, 252);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article:nth-of-type(odd) {
+    background-color: rgb(41, 204, 244);
+    color: rgb(30, 2, 91);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main article p {
+    text-indent: 7%;
+    text-align: justify;
+    flex: 1;
+    min-width: 400px;
+    padding: 1% 2%;
+    line-height: 30px;
+}
+
+main article figure{
+    flex: 1;
+    min-width: 400px;
+}
+
+main article p:first-letter {
+    font-weight: bold;
+    color: #ff0000;
+    font-size: 2em;
+}
+
+article:first-of-type p {
+    align-self: center;
+}
+
+article:last-of-type p {
+    align-self: flex-end;
+}
+
+
+/* footer*/
+
+footer {
+    margin: 0% 10%;
+    padding: 2%;
+    background-color: rgb(73, 202, 245);
+    text-align: center;
+  }
